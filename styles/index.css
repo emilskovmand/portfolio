@@ -1,4 +1,103 @@
-@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Serif:wght@200&display=swap");
+.hero {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 96px;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  position: relative;
+}
+
+.hero .header {
+  color: #fff;
+  font-size: 96px;
+  font-weight: 700;
+  letter-spacing: -1px;
+  line-height: 1;
+  margin-top: 250px;
+  max-width: 850px;
+  text-align: center;
+  z-index: 1;
+}
+
+.hero .header > span {
+  display: inline-block;
+}
+
+.hero .lines {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: baseline;
+      -ms-flex-pack: baseline;
+          justify-content: baseline;
+  width: 100%;
+  padding: 0 86px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 15px;
+}
+
+.hero .lines .line {
+  background-color: #ffffffaf;
+  height: 1px;
+  margin-bottom: 70px;
+  width: 10%;
+  -webkit-box-shadow: 0px 0px 2px 1px #ffffffaf;
+          box-shadow: 0px 0px 2px 1px #ffffffaf;
+}
+
+.hero .lines .line:nth-child(1) {
+  margin-top: 40px;
+  width: 60%;
+}
+
+.hero .lines .line:nth-child(2) {
+  width: 45%;
+}
+
+.hero .lines .line:nth-child(3) {
+  width: 40%;
+}
+
+.hero .lines .line:nth-child(4) {
+  width: 35%;
+}
+
+.hero .lines .line:nth-child(5) {
+  width: 30%;
+}
+
+.hero .lines .line:nth-child(6) {
+  width: 25%;
+}
+
+.hero .lines .line:nth-child(7) {
+  width: 20%;
+}
+
+.hero .lines .line:nth-child(8) {
+  width: 15%;
+}
+
+.hero .lines .line:nth-child(9) {
+  width: 12%;
+}
+
 * {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -16,13 +115,20 @@ a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, bo
 body {
   background-color: #060606;
   overflow-x: hidden;
-  font-family: 'Bebas Neue', cursive;
   font-size: 18px;
 }
 
 main {
   background-color: #060606;
+  font-family: 'Roboto Serif', sans-serif;
+}
+
+.bebas {
   font-family: 'Bebas Neue', cursive;
+}
+
+.roboto {
+  font-family: 'Roboto Serif', sans-serif;
 }
 
 .global-nav {

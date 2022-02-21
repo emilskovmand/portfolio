@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Serif:wght@200&display=swap');
+@import './components/hero';
 
 
 * {
@@ -17,13 +18,20 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 body {
     background-color: #060606;
     overflow-x: hidden;
-    font-family: 'Bebas Neue', cursive;
     font-size: 18px;
 }
 
 main {
     background-color: #060606;
+    font-family: 'Roboto Serif', sans-serif;
+}
+
+.bebas {
     font-family: 'Bebas Neue', cursive;
+}
+
+.roboto {
+    font-family: 'Roboto Serif', sans-serif;
 }
 
 .global-nav {

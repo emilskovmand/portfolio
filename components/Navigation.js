@@ -5,9 +5,9 @@ export default function Navigation() {
     return (
         <>
             <nav className="global-nav">
-                <a className="navigation-link" href="">{`{es}`}</a>
+                <a className="navigation-link roboto" href="">{`{es}`}</a>
 
-                <ul className="navigation-list">
+                <ul className="navigation-list bebas">
                     <li className="navigation-list-item">
                         <a className="navigation-list-link">Om mig</a>
                     </li>
