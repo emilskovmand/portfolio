@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    box-sizing: border-box
+}
+
+a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,caption,center,cite,code,dd,del,details,dfn,div,dl,dt,em,embed,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,output,p,pre,q,ruby,s,samp,section,small,span,strike,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,tt,u,ul,var,video {
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline
+}
+
+body {
+    background-color: #060606;
+    overflow-x: hidden;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 18px;
+}
+
+main {
+    background-color: #060606;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.global-nav {
+    max-width: 1532px;
+    padding: 0 84px;
+}
+
+.global-nav {
+    align-items: center;
+    display: flex;
+    left: 50%;
+    position: absolute;
+    top: 84px;
+    transform: translateX(-50%);
+    width: 100%;
+    z-index: 2;
+
+    &::before {
+        background-color: #9a9a9a;
+        content: "";
+        display: block;
+        height: 1px;
+        order: 2;
+        width: 100%;
+    }
+    
+    .navigation-link {
+        width: 70px;
+        margin-right: 70px;
+        font-size: xx-large;
+        letter-spacing: 3px;
+        color: #fff;
+
+        text-decoration: none;
+    }
+
+    .navigation-list {
+
+        align-items: center;
+        display: flex;
+        flex-shrink: 0;
+        margin-left: 64px;
+        order: 3;
+
+        .navigation-list-item {
+            margin-left: 8px;
+            margin-right: 8px;
+
+            .navigation-list-link {
+                background-color: hsla(0,0%,98%,0);
+                border-radius: 12px;
+                color: #fff;
+                display: inline-block;
+                padding: 14px 24px;
+                text-decoration: none;
+                transition: background-color .2s cubic-bezier(.5,1,.5,1);
+
+                &:hover {
+                    cursor: pointer;
+                    background-color: #fafafa1a;
+                }
+            }
+        }
+    }
+}
